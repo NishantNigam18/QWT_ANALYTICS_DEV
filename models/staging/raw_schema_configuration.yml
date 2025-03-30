@@ -1,0 +1,29 @@
+version: 2
+ 
+sources:
+  - name: qwt_raw
+    database: qwt_analytics_dev
+    schema: raw_dev
+    tables:
+        - name: raw_customers
+        - name: raw_products
+        - name: raw_orders
+        - name: raw_orderdetails
+        - name: raw_employees
+        - name: raw_offices
+        - name: raw_shipments
+        - name: raw_suppliers
+
+  # - name: ref
+  #   database: qwt_analytics_dev
+  #   schema: staging_dev
+  #   tables:
+  #       - name: stg_customers
+  #       - name: stg_products
+  #       - name: stg_orders
+  #       - name: stg_orderdetails
+  #       - name: trf_orders
+  #       - name: trf_customers
+  #       - name: fct_orders
+  #       - name: dim_customers
+ 
